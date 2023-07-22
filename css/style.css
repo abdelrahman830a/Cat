@@ -190,7 +190,20 @@ header{
 
 @media (max-width: 700px) {
     *{
+        max-height: 100vh;
+        flex-wrap: wrap;
         flex-direction: column;
     }
-    
+    .header__section-side1-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .header__section-side1-content h1{
+        font-size: smaller;
+    }
+    .footer__social{
+        display: flex;
+        justify-content: flex-start:
+    }
 }

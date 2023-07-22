@@ -195,6 +195,13 @@ header{
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .header__nav-logo{
+        z-indez: 5;
+    }
+    footer{
+        display:none;
+    }
+}
     
 @media (max-width: 500px){
     .header__section-side1-content h1{

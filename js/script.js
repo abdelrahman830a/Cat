@@ -9,7 +9,7 @@ const menubtn = document.getElementById('menubtn');
 
 
 btn1.addEventListener('click', () =>{
-    head.style.background = "url('../assets/cat1.jpg') no-repeat center center/cover";
+    head.style.background = "url('cat11.jpg') no-repeat center center/cover";
     btn1.style.border = "ridge";
     btn2.style.border = "none";
     btn3.style.border = "none";
@@ -17,7 +17,7 @@ btn1.addEventListener('click', () =>{
 })
 
 btn2.addEventListener('click', () =>{
-    head.style.background = "url('../assets/cat2.jpg') no-repeat center center/cover";
+    head.style.background = "url('cat22.jpg') no-repeat center center/cover";
     btn2.style.border = "ridge";
     btn1.style.border = "none";
     btn3.style.border = "none";
@@ -25,7 +25,7 @@ btn2.addEventListener('click', () =>{
 })
 
 btn3.addEventListener('click', () =>{
-    head.style.background = "url('../assets/cat3.jpg') no-repeat center center/cover";
+    head.style.background = "url('cat33.jpg') no-repeat center center/cover";
     btn3.style.border = "ridge";
     btn2.style.border = "none";
     btn1.style.border = "none";
@@ -33,7 +33,7 @@ btn3.addEventListener('click', () =>{
 })
 
 btn4.addEventListener('click', () =>{
-    head.style.background = "url('../assets/cat4.jpg') no-repeat center center/cover";
+    head.style.background = "url('cat44.jpg') no-repeat center center/cover";
     btn4.style.border = "ridge";
     btn2.style.border = "none";
     btn3.style.border = "none";
@@ -50,28 +50,28 @@ const loading = () =>{
 
 
     setTimeout(() =>{
-        head.style.background = "url('../assets/cat1.jpg') no-repeat center center/cover";
+        head.style.background = "url('cat11.jpg') no-repeat center center/cover";
         btn1.style.border = "ridge";
     btn2.style.border = "none";
     btn3.style.border = "none";
     btn4.style.border = "none";
     }, 0);
     setTimeout(() =>{
-        head.style.background = "url('../assets/cat2.jpg') no-repeat center center/cover";
+        head.style.background = "url('cat22.jpg') no-repeat center center/cover";
         btn2.style.border = "ridge";
     btn1.style.border = "none";
     btn3.style.border = "none";
     btn4.style.border = "none";
     }, 5000);
     setTimeout(() =>{
-        head.style.background = "url('../assets/cat3.jpg') no-repeat center center/cover";
+        head.style.background = "url('cat33.jpg') no-repeat center center/cover";
         btn3.style.border = "ridge";
     btn2.style.border = "none";
     btn1.style.border = "none";
     btn4.style.border = "none";
     }, 10000);
     setTimeout(() =>{
-        head.style.background = "url('../assets/cat4.jpg') no-repeat center center/cover";
+        head.style.background = "url('cat44.jpg') no-repeat center center/cover";
         btn4.style.border = "ridge";
     btn2.style.border = "none";
     btn3.style.border = "none";

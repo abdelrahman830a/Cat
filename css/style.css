@@ -196,9 +196,14 @@ header{
         flex-direction: column;
     }
     .header__nav-logo{
+        display: block;
+        position: absolute;
         z-indez: 5;
     }
     footer{
+        display:none;
+    }
+    .butt{ 
         display:none;
     }
 }

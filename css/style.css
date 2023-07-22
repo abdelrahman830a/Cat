@@ -191,7 +191,6 @@ header{
 @media (max-width: 700px) {
     *{
         flex-direction: column;
-        flex-wrap: wrap;
     }
     
 }
